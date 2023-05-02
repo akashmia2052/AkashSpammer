@@ -98,10 +98,10 @@ class Main:
 		
 		print ("""\033[1;92m   
 
-   .--.   .-. .-.    .--.     .----.     .-. .-.
- / {} \ | |/ /   / {} \  { {__    | {_} |
-/  /\  \| |\ \ /  /\  \ .-._} }. | { } |
-`-'  `-'  `-' `-'   `-'  `-'  `----'    `-' `-'
+   .--.   .-.      .-.      .--.     .----.     .-. .-.
+ / {} \ | |/ /    / {} \  { {__      | {_} |
+/  /\  \| |\ \   /  /\  \ .-._} }    | { } |
+`-'  `-' `-' `-' `-'  `- '`----'     `-' `-'
 \033[1;90m══════════════════════════════════════════════════
 \033[1;91m [\033[1;94m✓\033[1;91m] \033[1;92mFACEBOOK : Akash Mia
 \033[1;91m [\033[1;94m✓\033[1;91m] \033[1;92mFB GROUP : 🔴https://facebook.com/groups/334416514989667🔴
@@ -435,7 +435,7 @@ class Main:
 			"Mozilla/5.0 (Linux; Android 11; RMX2195) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Mobile Safari/537.36;]"
 		])
 		sys.stdout.write(
-			"\r\r %s[>_] [Akash_OLD] : %s/%s -> \033[0;92m [ Akash-OK:%s ]- \033[0;91m[R140N-CP:%s ]"%(B,self.loop, len(self.id), len(self.ok), len(self.cp))
+			"\r\r %s[>_] [Akash_OLD] : %s/%s -> \033[0;92m [ Akash-OK:%s ]- \033[0;91m[Akash-CP:%s ]"%(B,self.loop, len(self.id), len(self.ok), len(self.cp))
 		); sys.stdout.flush()
 		for pw in pwx:
 			pw = pw.lower()
